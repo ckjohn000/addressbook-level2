@@ -66,6 +66,13 @@ public class UniquePersonList implements Iterable<Person> {
     }
 
     /**
+     * Returns the size of the address book
+     */
+    public int size() {
+        return internalList.size();
+    }
+
+    /**
      * Constructs a shallow copy of the list.
      */
     public UniquePersonList(UniquePersonList source) {
